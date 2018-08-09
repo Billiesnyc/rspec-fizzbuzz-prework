@@ -1,8 +1,10 @@
-def fizzbuzz (x)
-  if fizzbuzz == 3
+def fizzbuzz(x)
+  if x % 3 == 0
     return "Fizz"
-  elsif fizzbuzz == 5
+  elsif x % 5 == 0
     return "Buzz"
-  elsif (fizzbuzz / 3 
-  
+  elsif (x % 3 == 0) && (x % 5 == 0)
+  return "FizzBuzz"
+else
+  nil
 end
