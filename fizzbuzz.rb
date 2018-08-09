@@ -3,6 +3,6 @@ def fizzbuzz (x)
     return "Fizz"
   elsif fizzbuzz == 5
     return "Buzz"
-  elsif fizzbuzz 
+  elsif (fizzbuzz / 3 
   
 end
